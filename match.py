@@ -33,7 +33,12 @@ def main():
             time.sleep(.5)
         except:
             print("\tno match...")
-
+        try:
+            close_super_like_button = driver.find_elements_by_xpath("/html/body/div[2]/div/div/button[2]")[0]
+            close_super_like_button.click()
+            time.sleep(.5)
+        except:
+            print("FUCK YOU SUPER LIKE")
     # close driver 
     driver.close()
 
