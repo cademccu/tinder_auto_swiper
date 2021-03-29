@@ -1,0 +1,16 @@
+
+* when user runs out of swipes, exit the process
+
+* misc try catch to exit upon failure
+
+* add tinder to your homescreen or something?? get exit button for that.
+
+* parse bio
+
+* CSV reader for words I don't like
+
+* arg parse
+	--filename -f - name of csv file, defaults to something
+	--help -h 
+	--number-of-swipes -n number of swipes
+	
